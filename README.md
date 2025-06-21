@@ -25,7 +25,7 @@ A LangGraph-powered multi-agent system that automates three routine product-mana
 ---
 
 ## Architecture
-
+```
 Ingestion Worker ─► Voice-of-Customer Synthesizer ─► Opportunity Scorer ─► Top-N Filter
         ▲                      │  ▲                                  │
         │                      │  └─ retry on low cohesion           │
@@ -35,6 +35,7 @@ Ingestion Worker ─► Voice-of-Customer Synthesizer ─► Opportunity Scorer 
                         │
                         ▼
                  PM Chat Interface
+```
 
 | Layer | Responsibility | Implementation |
 |-------|----------------|----------------|
